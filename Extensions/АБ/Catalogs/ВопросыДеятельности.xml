@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="ec7d2b9a-7343-46fa-9e9a-02b22e859111">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВопросыДеятельности" category="Object">
+				<xr:TypeId>278ca903-b4f9-4996-9914-1b0b438807dd</xr:TypeId>
+				<xr:ValueId>a2f0647f-db48-4780-a12a-60dffe664af9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВопросыДеятельности" category="Ref">
+				<xr:TypeId>a9418513-3d48-4133-9363-3d8f93302134</xr:TypeId>
+				<xr:ValueId>094ce847-11b9-40ad-8a03-a7cca3e191e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВопросыДеятельности" category="Selection">
+				<xr:TypeId>29d8520a-36ae-4f8c-a29d-57fe05abd343</xr:TypeId>
+				<xr:ValueId>5db621e1-c2f1-4e4c-9331-01d6f88092fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВопросыДеятельности" category="List">
+				<xr:TypeId>8bfa30a0-6c9c-4b00-b149-06dde2ab85f0</xr:TypeId>
+				<xr:ValueId>a1f32f8b-4c65-4805-be00-3f5c1c44ef9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВопросыДеятельности" category="Manager">
+				<xr:TypeId>8fa3e3a4-fc39-407f-8955-4717fa4b7ab3</xr:TypeId>
+				<xr:ValueId>2b46339c-4088-442c-85f4-4bedc7598ccc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВопросыДеятельности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5148db2b-1159-4cf9-a08f-e26ddca39788</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

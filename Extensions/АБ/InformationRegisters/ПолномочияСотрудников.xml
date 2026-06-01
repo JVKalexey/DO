@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="4351d974-39f4-4c02-b90d-7b153dc38405">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПолномочияСотрудников" category="Record">
+				<xr:TypeId>a2c7fcd7-f433-44b6-bdca-70a5ad6e0a02</xr:TypeId>
+				<xr:ValueId>b0aded6a-9738-4e84-8047-77cee69ed774</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПолномочияСотрудников" category="Manager">
+				<xr:TypeId>4b30060c-4f34-4b87-b07c-afc34ac1d4ba</xr:TypeId>
+				<xr:ValueId>926ae03a-6365-4209-8f2a-ec1bd8de97dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПолномочияСотрудников" category="Selection">
+				<xr:TypeId>51dd31e3-eac9-4795-9128-9198014a103e</xr:TypeId>
+				<xr:ValueId>1abb024c-a303-4fdf-bfe6-bf37a2307ab6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПолномочияСотрудников" category="List">
+				<xr:TypeId>0e5a3853-8c05-4a71-8ea6-0983934126c7</xr:TypeId>
+				<xr:ValueId>f94b8507-d6d3-4cb6-a13b-3b5f54b21187</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПолномочияСотрудников" category="RecordSet">
+				<xr:TypeId>70174c22-522c-43e9-8974-5e09d663b80f</xr:TypeId>
+				<xr:ValueId>cde66853-ce2d-4a43-b589-2e210fe2f7a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПолномочияСотрудников" category="RecordKey">
+				<xr:TypeId>09cc47eb-e9cc-4ddf-91ca-95556567e3a5</xr:TypeId>
+				<xr:ValueId>ede92ad0-cef1-403c-8d69-e496db060a9d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПолномочияСотрудников" category="RecordManager">
+				<xr:TypeId>0dcdb6a5-2b05-489b-94b2-05919f40c487</xr:TypeId>
+				<xr:ValueId>9a799930-55c2-4970-979f-c9894b741d80</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПолномочияСотрудников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2be17587-afab-47f6-85a2-7cf2c79cc450</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="85d61ea1-ac75-4ab2-b61d-e67ce0b4be70">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Владелец</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eb67a2b9-ef94-41a1-9c90-15e22627f00b</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.КонтейнерыСотрудников</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="38957217-494a-453f-92ce-076e59f4c84b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Полномочия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>658ce9ff-3d9b-4e87-b592-38d41f5b6d0c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПрофилиГруппДоступа</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

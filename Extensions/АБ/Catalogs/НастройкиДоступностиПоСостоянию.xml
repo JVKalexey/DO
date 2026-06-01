@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="d17e7418-8229-4670-8ba9-de26cfe2610b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НастройкиДоступностиПоСостоянию" category="Object">
+				<xr:TypeId>81539673-5e37-421c-b2a4-b89e011a5b18</xr:TypeId>
+				<xr:ValueId>74a95424-5d5d-4aec-803d-5d6e78d8e941</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НастройкиДоступностиПоСостоянию" category="Ref">
+				<xr:TypeId>c75b52d2-13c7-4630-91d9-e75827108b95</xr:TypeId>
+				<xr:ValueId>663fd6a1-d87a-4065-99b8-8b782a17b838</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НастройкиДоступностиПоСостоянию" category="Selection">
+				<xr:TypeId>71a454f2-3562-4c77-abba-4522f31c31e3</xr:TypeId>
+				<xr:ValueId>7d4a1c38-263b-4cb6-bed9-dd5b593f5b4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НастройкиДоступностиПоСостоянию" category="List">
+				<xr:TypeId>6d373dd5-f196-4a8f-8522-bb4ded9cd461</xr:TypeId>
+				<xr:ValueId>97a2f922-5eb8-4f50-b039-ab804e0f4260</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НастройкиДоступностиПоСостоянию" category="Manager">
+				<xr:TypeId>d6813606-1d6f-4588-86ab-969b03ce3d1f</xr:TypeId>
+				<xr:ValueId>18dda8ae-836b-4df4-9d31-254895d10742</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиДоступностиПоСостоянию</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6984eaa4-3ab7-4397-93da-c61d2b29e536</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Template>НастройкиПолейКомандДокументПредприятия</Template>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

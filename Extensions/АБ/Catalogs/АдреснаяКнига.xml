@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="a15cd4cf-13ca-477f-b0d1-6d00b5d289d1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АдреснаяКнига" category="Object">
+				<xr:TypeId>43aef45d-654d-4825-9a1e-f4c1b4e5265a</xr:TypeId>
+				<xr:ValueId>9e968984-ca36-477a-98a4-3e4a50ed1135</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АдреснаяКнига" category="Ref">
+				<xr:TypeId>cbec36bb-8b00-415d-bfb2-01354707d29d</xr:TypeId>
+				<xr:ValueId>922f6d95-4dc3-4ece-9cfa-9a1916a0b43b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АдреснаяКнига" category="Selection">
+				<xr:TypeId>4929d120-e9e8-4f51-96a0-5fbced55c92b</xr:TypeId>
+				<xr:ValueId>ea1aca79-4986-4ced-affc-b8ea5935c087</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АдреснаяКнига" category="List">
+				<xr:TypeId>0ae59a75-6347-4b38-bf24-7ceefd9cd82f</xr:TypeId>
+				<xr:ValueId>57bd9ca4-45b0-4628-aeb2-669fb20d7844</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АдреснаяКнига" category="Manager">
+				<xr:TypeId>5eae0562-2da0-4168-b043-896510568e85</xr:TypeId>
+				<xr:ValueId>159c185a-95b1-45fa-bdc1-ab0ef4694881</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АдреснаяКнига</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e5486096-4326-4785-9cc0-10c21b30ea18</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Subsystem uuid="0e429791-9318-4850-859e-90e81980f92e">
+		<Properties>
+			<Name>Холдинг</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Холдинг</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.БизнесПроцессыИЗадачиХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.БронированиеПомещенийХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.БронированиеПомещенийХолдингВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.БронированиеПомещенийХолдингКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.БронированиеПомещенийХолдингПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДействияХолдингСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДелопроизводствоХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДокументооборотПраваДоступаХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменСКонтрагентамиДОХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменСКонтрагентамиДОХолдингВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменСКонтрагентамиДОХолдингКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменСКонтрагентамиДОХолдингКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбработкиОбъектовХолдингВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбработкиОбъектовХолдингСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбсужденияДокументооборотХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияДокументооборотХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияДокументооборотХолдингВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияДокументооборотХолдингКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСБизнесПроцессамиХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСБизнесПроцессамиХолдингВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСБизнесПроцессамиХолдингКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСБизнесПроцессамиХолдингКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСКонтрагентамиДокументооборотХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСКонтрагентамиДокументооборотХолдингКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСКонтрагентамиДокументооборотХолдингКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФайламиХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФормамиХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФормамиХолдингПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЭлектроннаяПодписьДокументооборотХолдинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ПодтверждениеБронированияПомещений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ФайловыеФункцииХолдингСлужебныйКлиентСервер</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

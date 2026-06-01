@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="f45098bf-5166-496b-a0bb-10cf8c3933c4">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СотрудникиПользователей" category="Record">
+				<xr:TypeId>eb959fae-7a99-450f-9d7f-85264ac7d8b7</xr:TypeId>
+				<xr:ValueId>b8c076f6-745f-4c8a-8c32-8ef7c15be75b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СотрудникиПользователей" category="Manager">
+				<xr:TypeId>3e7ef4a1-bb66-4565-a0a1-ec87d645239b</xr:TypeId>
+				<xr:ValueId>eef5fc34-9535-4abd-8c9c-4ae435ad89de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СотрудникиПользователей" category="Selection">
+				<xr:TypeId>6d8c7474-c4e0-4852-9973-9aad47df997e</xr:TypeId>
+				<xr:ValueId>99fdcd7e-2731-40bb-bdf4-9d8763f7b895</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СотрудникиПользователей" category="List">
+				<xr:TypeId>48cdfe20-1d4e-4fff-b037-75ab70d5b9ba</xr:TypeId>
+				<xr:ValueId>be01e907-7a8e-4d97-8592-bfc8b881825f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СотрудникиПользователей" category="RecordSet">
+				<xr:TypeId>c810e23f-03a7-406a-a772-f29307bdf01a</xr:TypeId>
+				<xr:ValueId>dc8391a1-6cc5-41be-a147-7edc33af53c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СотрудникиПользователей" category="RecordKey">
+				<xr:TypeId>912b5866-29c5-41d9-b87a-4b065ca88b67</xr:TypeId>
+				<xr:ValueId>562ccb73-48c8-43ee-a144-c4c96b902c4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СотрудникиПользователей" category="RecordManager">
+				<xr:TypeId>c05641cf-cab9-4688-9d00-af7951dce3e5</xr:TypeId>
+				<xr:ValueId>f37c4cfe-4522-41db-b9ea-7dfe02b9bc28</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СотрудникиПользователей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6c8e1504-f3ea-482e-b348-e16075d48a7c</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="16f06dad-0ede-423a-b839-55316fb6a066">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пользователь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>734e9496-8ff0-40b2-9972-8689cd2285a6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="07faee0c-517c-4f74-ae05-7ac1dce32c81">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cc71a91e-9620-40af-afb7-f70942bb7101</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

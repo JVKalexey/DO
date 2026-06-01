@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="a49391e0-f1e8-4e56-8da1-7317230409a2">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СведенияОФайлахДокументооборот" category="Record">
+				<xr:TypeId>77c5cde2-a2db-4374-be9a-da85df2345c1</xr:TypeId>
+				<xr:ValueId>ee173d38-aa61-4cc8-853c-585f3e9e50bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СведенияОФайлахДокументооборот" category="Manager">
+				<xr:TypeId>f0d0dc47-5bd0-4c08-9566-7de1ef4384f0</xr:TypeId>
+				<xr:ValueId>c355818c-82d9-4217-abb9-4e9db0e54b5b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СведенияОФайлахДокументооборот" category="Selection">
+				<xr:TypeId>be2d65b3-f684-4453-ba12-b9a1ca72451c</xr:TypeId>
+				<xr:ValueId>78817ede-bc0f-46f3-9b9b-d2bcc2ddbaaa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СведенияОФайлахДокументооборот" category="List">
+				<xr:TypeId>bfaeee24-00a2-464e-ab02-401c073cde62</xr:TypeId>
+				<xr:ValueId>55d04828-5586-4cfc-a45e-ab568b7de77b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СведенияОФайлахДокументооборот" category="RecordSet">
+				<xr:TypeId>d8e2cf00-efb5-4468-a246-3ef78171dfb5</xr:TypeId>
+				<xr:ValueId>4f67f431-31c5-48b0-9aac-10ab31807757</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СведенияОФайлахДокументооборот" category="RecordKey">
+				<xr:TypeId>72fdaeab-8fbb-428a-b5ff-ce93997db912</xr:TypeId>
+				<xr:ValueId>037bd6c3-f05d-4132-b974-ff29bbfff24b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СведенияОФайлахДокументооборот" category="RecordManager">
+				<xr:TypeId>f48597ac-23ce-4764-93fa-4cab730295df</xr:TypeId>
+				<xr:ValueId>3872daf1-3048-4967-845b-fbcc7027db32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>RecordSetModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СведенияОФайлахДокументооборот</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a2a78913-a418-40c8-afce-3f3bb2e516cd</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

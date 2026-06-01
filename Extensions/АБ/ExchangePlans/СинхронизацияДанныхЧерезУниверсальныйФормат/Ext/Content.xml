@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExchangePlanContent xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Item>
+		<Metadata>Catalog.Файлы</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.УВМ_ИсторияРегистрацийВНалоговомОргане</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.УВМ_РегистрацииВНалоговомОргане</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.УВМ_ПричиныБлокировкиРазблокировкиКонтрагентов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<ExtensionProperty>
+		<Item>
+			<Metadata>InformationRegister.УВМ_ПричиныБлокировкиРазблокировкиКонтрагентов</Metadata>
+			<State>Modify</State>
+		</Item>
+		<Item>
+			<Metadata>Catalog.УВМ_РегистрацииВНалоговомОргане</Metadata>
+			<State>Modify</State>
+		</Item>
+		<Item>
+			<Metadata>InformationRegister.УВМ_ИсторияРегистрацийВНалоговомОргане</Metadata>
+			<State>Modify</State>
+		</Item>
+		<Item>
+			<Metadata>Catalog.Файлы</Metadata>
+			<State>Modify</State>
+		</Item>
+	</ExtensionProperty>
+</ExchangePlanContent>

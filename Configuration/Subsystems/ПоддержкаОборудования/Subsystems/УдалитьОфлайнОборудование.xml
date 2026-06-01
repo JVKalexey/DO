@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Subsystem uuid="9d4adb1a-3264-4af6-9138-16516509d245">
+		<Properties>
+			<Name>УдалитьОфлайнОборудование</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Офлайн-оборудование</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EquipmentService_1_0_0_6</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EquipmentService</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">9874a111-76f4-472e-bac2-3f0910fac8fd</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">d1c5f5d3-a601-4adb-b70a-3bad82f4199a</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">900bf1bc-aca9-491a-816e-d0908a0019e1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">03eb52fb-4ce4-47c7-8fb2-14ac4249d548</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EquipmentService_1_0_0_7</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">b15bc0c6-4d58-49a7-8076-6292e44a9f57</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">7d924665-f0df-4121-931f-5de91dd27609</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">cd4ecad4-8940-4908-a61c-3c60c176a665</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">a5761c25-9dfe-4fbb-8ef0-fa51e2613cd3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">df322290-5c69-4cd8-b9f0-2dcc6d9e22c4</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c0f22a64-fb16-4470-ac2b-aef4168450e0</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">5e8c7024-2ae7-4c2d-8e85-fabfb1368f63</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">56f0f299-5b03-4945-97ac-fca0741fc8b5</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">970da455-4606-4dde-8309-a978d61b7b5e</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">d8a7add0-34a3-49b2-86ef-0c704a932659</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EquipmentService_2_0_0_3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f79082ce-7307-4da0-9070-60c7dc461bd0</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">16b373ec-fbf1-4a18-80d3-ed9c512c4b5b</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТоварыВыгрузить</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТоварыЗагрузить</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТоварыОчистить</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EquipmentService_3_0_0_0</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">548a53d0-72f3-4e62-9c99-4335b55e6ca2</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">dd6c88aa-7d6f-44a1-bac0-9f9f2d7e4c10</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">d1289e66-e9c2-4756-90ba-dec63c9864d2</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">4f88cd2e-92f9-4a19-925d-fc103aa7a6fd</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">df2e3b01-a189-4811-b6f5-794f65fcf769</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">6e420ae0-2837-47b6-a93c-477ef0b5eccd</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыТранспортаОфлайнОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыОфлайнОборудования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ОбработчикиОфлайнОборудования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EquipmentService_3_0_0_1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ВыполнениеСинхронизацииДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">9aeef22e-a977-4aa1-b39d-dd27ac0717de</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f10681e6-6a02-4975-9509-36c76262b183</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.Cashbox_1_8_6</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EquipmentService_3_0_0_2</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EquipmentService_3_0_0_3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">7046e716-a530-4717-89a3-7adfa630a9e9</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">153f6ba3-f697-49d3-a386-5cc8a19a337b</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">0508a425-4f65-4e32-980c-a7f8d60240a8</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ExchangeMessage</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>WebСервисОборудование</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>

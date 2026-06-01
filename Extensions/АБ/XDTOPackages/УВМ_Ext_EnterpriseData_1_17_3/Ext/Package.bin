@@ -1,0 +1,148 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://v8.1c.ru/edi/edi_stnd/ED_Ext_UVM/1.17">
+	<import namespace="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17"/>
+	<import namespace="http://www.1c.ru/SSL/Exchange/Message"/>
+	<valueType name="УВМ_СтатусыБлокировкиКонтрагентов" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">Заблокирован</enumeration>
+		<enumeration xsi:type="xs:string">Разблокирован</enumeration>
+	</valueType>
+	<valueType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="СправочникСсылка.УВМ_ОтветственныеЛицаОрганизаций" base="d2p1:Ref"/>
+	<valueType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="СправочникСсылка.РегистрацииВНалоговомОргане" base="d2p1:Ref"/>
+	<valueType name="ВидыКИ" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">ПочтовыйАдрес</enumeration>
+		<enumeration xsi:type="xs:string">ЮридическийАдрес</enumeration>
+		<enumeration xsi:type="xs:string">ФактическийАдрес</enumeration>
+		<enumeration>Телефон</enumeration>
+		<enumeration xsi:type="xs:string">ТелефонДомашний</enumeration>
+		<enumeration xsi:type="xs:string">ТелефонРабочий</enumeration>
+		<enumeration>Факс</enumeration>
+		<enumeration>ВебСтраница</enumeration>
+		<enumeration>АдресЭлектроннойПочты</enumeration>
+		<enumeration xsi:type="xs:string">Skype</enumeration>
+		<enumeration xsi:type="xs:string">ПользовательскаяКИДругое</enumeration>
+		<enumeration xsi:type="xs:string">ПользовательскаяКИТелефон</enumeration>
+		<enumeration xsi:type="xs:string">ПользовательскаяКИАдрес</enumeration>
+		<enumeration xsi:type="xs:string">ПользовательскаяКИАдресЭлектроннойПочты</enumeration>
+		<enumeration xsi:type="xs:string">ПользовательскаяКИВебСтраница</enumeration>
+		<enumeration xsi:type="xs:string">ПользовательскаяКИФакс</enumeration>
+		<enumeration xsi:type="xs:string">ПользовательскаяКИSkype</enumeration>
+	</valueType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.УВМ_ПричиныБлокировкиРазблокировкиКонтрагентов" base="d2p1:Object" open="true" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="КонтрагентОтбор" type="d3p1:КлючевыеСвойстваКонтрагент"/>
+		<property name="ПериодОтбор" type="xs:dateTime" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/AB_edi_stnd/EnterpriseData/1.17" name="Записи" type="d3p1:Справочник.УВМ_ПричиныБлокировкиРазблокировкиКонтрагентовЗаписи" lowerBound="0"/>
+	</objectType>
+	<objectType name="Справочник.УВМ_ПричиныБлокировкиРазблокировкиКонтрагентовЗаписи">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/AB_edi_stnd/EnterpriseData/1.17" name="Строка" type="d3p1:Справочник.УВМ_ПричиныБлокировкиРазблокировкиКонтрагентовЗапись" upperBound="-1"/>
+	</objectType>
+	<objectType name="Справочник.УВМ_ПричиныБлокировкиРазблокировкиКонтрагентовЗапись" open="true" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="Контрагент" type="d3p1:КлючевыеСвойстваКонтрагент"/>
+		<property name="Период" type="xs:dateTime" lowerBound="0"/>
+		<property name="ПричинаБлокировкиРазблокировки" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="Автор" type="d3p1:КлючевыеСвойстваПользователь" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/AB_edi_stnd/EnterpriseData/1.17" name="Статус" type="d3p1:УВМ_СтатусыБлокировкиКонтрагентов" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.РегистрацииВНалоговомОргане" base="d2p1:Object" open="true" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/ED_Ext_UVM/1.17" name="КлючевыеСвойства" type="d3p1:КлючевыеСвойстваРегистрацияВНалоговомОргане"/>
+		<property name="КраткоеНаименованиеНалоговогоОргана" type="xs:string" lowerBound="1" nillable="false"/>
+		<property name="НаименованиеИФНС" type="xs:string"/>
+		<property name="Представитель" lowerBound="0">
+			<typeDef xsi:type="ObjectType" ordered="false">
+				<property xmlns:d5p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="Контрагент" type="d5p1:КлючевыеСвойстваКонтрагент" lowerBound="0"/>
+				<property xmlns:d5p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="ФизическоеЛицо" type="d5p1:КлючевыеСвойстваФизическоеЛицо" lowerBound="0"/>
+			</typeDef>
+		</property>
+		<property name="УполномоченноеЛицоПредставителя" type="xs:string" lowerBound="0"/>
+		<property name="ДокументПредставителя" type="xs:string" lowerBound="0"/>
+		<property name="Доверенность" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="ОбщиеСвойстваОбъектовФормата" type="d3p1:ОбщиеСвойстваОбъектовФормата" lowerBound="0"/>
+		<property name="ОКАТО" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" maxLength="11"/>
+		</property>
+		<property name="ОКТМО" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" maxLength="11"/>
+		</property>
+		<property name="ЦифровойИндексОбособленногоПодразделения" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:int" totalDigits="5"/>
+		</property>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/ED_Ext_UVM/1.17" name="КонтактнаяИнформация" type="d3p1:КонтактнаяИнформация" lowerBound="0"/>
+	</objectType>
+	<objectType name="КлючевыеСвойстваРегистрацияВНалоговомОргане" open="true" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/ED_Ext_UVM/1.17" name="Ссылка" type="d3p1:СправочникСсылка.РегистрацииВНалоговомОргане" lowerBound="0"/>
+		<property name="КПП" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" maxLength="9"/>
+		</property>
+		<property name="НаименованиеОбособленногоПодразделения" type="xs:string" nillable="true"/>
+		<property name="КодНалоговогоОргана" type="xs:string"/>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="Организация" type="d3p1:КлючевыеСвойстваОрганизация"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.Подразделения" base="d2p1:Object" open="true" sequenced="true">
+		<property name="УВМ_ПрефиксПодразделения" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.УВМ_ОтветственныеЛицаОрганизаций" base="d2p1:Object" open="true" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="Организация" type="d3p1:КлючевыеСвойстваОрганизация"/>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/ED_Ext_UVM/1.17" name="КлючевыеСвойства" type="d3p1:КлючевыеСвойстваУВМ_ОтветственныеЛицаОрганизаций"/>
+		<property name="ОтветственноеЛицоПредставление" type="xs:string" nillable="true"/>
+		<property name="ДолжностьДляПечати" type="xs:string" nillable="true"/>
+		<property name="ДатаНачала" type="xs:date" nillable="true"/>
+		<property name="ДатаОкончания" type="xs:date" nillable="true"/>
+		<property name="ПравоПодписиПоДоверенности" type="xs:boolean" nillable="true"/>
+		<property name="ОснованиеПраваПодписи" type="xs:string" nillable="true"/>
+		<property name="ДокументПраваПодписи" type="xs:string" nillable="true"/>
+		<property name="НомерДокументаПраваПодписи" type="xs:string" nillable="true"/>
+		<property name="ДатаДокументаПраваПодписи" type="xs:date" nillable="true"/>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="ФизическоеЛицо" type="d3p1:КлючевыеСвойстваФизическоеЛицо" nillable="true"/>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="Должность" type="d3p1:КлючевыеСвойстваДолжности" nillable="true"/>
+		<property name="ЕстьПравоПодписиИсходящихДоговоров" type="xs:boolean"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="КлючевыеСвойстваУВМ_ОтветственныеЛицаОрганизаций" base="d2p1:Object" open="true" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/ED_Ext_UVM/1.17" name="Ссылка" type="d3p1:СправочникСсылка.УВМ_ОтветственныеЛицаОрганизаций" lowerBound="0"/>
+		<property name="Наименование" type="xs:string"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.Организации" base="d2p1:Object" open="true" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="КлючевыеСвойства" type="d3p1:КлючевыеСвойстваОрганизация"/>
+		<property name="УВМ_КрупнейшийНалогоплательщик" type="xs:boolean" lowerBound="0"/>
+		<property name="УВМ_КодНалоговогоОрганаПолучателя" type="xs:string" lowerBound="0"/>
+		<property name="УВМ_КрупнейшийНалогоплательщикКПП" type="xs:string" lowerBound="0"/>
+		<property name="УВМ_КрупнейшийНалогоплательщикНаименованиеНалоговогоОргана" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/ED_Ext_UVM/1.17" name="КрупнейшийНалогоплательщикРегистрацияВНалоговомОргане" type="d3p1:КлючевыеСвойстваРегистрацияВНалоговомОргане" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="РегистрСведений.КрупнейшийНалогоплательщикИсторияРегистрацийВНалоговомОргане" base="d2p1:Object" open="true" abstract="false" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="СтруктурнаяЕдиницаОтбор" type="d3p1:КлючевыеСвойстваОрганизация" lowerBound="0" nillable="true"/>
+		<property name="ПериодОтбор" type="xs:dateTime" lowerBound="0"/>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/ED_Ext_UVM/1.17" name="Записи" type="d3p1:РегистрСведений.КрупнейшийНалогоплательщикИсторияРегистрацийВНалоговомОрганеЗаписи" lowerBound="0" upperBound="1"/>
+	</objectType>
+	<objectType name="РегистрСведений.КрупнейшийНалогоплательщикИсторияРегистрацийВНалоговомОрганеЗаписи">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/ED_Ext_UVM/1.17" name="Строка" type="d3p1:РегистрСведений.КрупнейшийНалогоплательщикИсторияРегистрацийВНалоговомОрганеЗапись" lowerBound="1" upperBound="-1"/>
+	</objectType>
+	<objectType name="РегистрСведений.КрупнейшийНалогоплательщикИсторияРегистрацийВНалоговомОрганеЗапись" open="true" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="СтруктурнаяЕдиница" type="d3p1:КлючевыеСвойстваОрганизация" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="РегистрацияВНалоговомОргане" type="d3p1:КлючевыеСвойстваРегистрацияВНалоговомОргане" lowerBound="0" nillable="true"/>
+		<property name="Период" type="xs:dateTime" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.КонтактныеЛица" base="d2p1:Object" open="true" sequenced="true">
+		<property name="УВМ_ОснованиеПодписи" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.Файлы" base="d2p1:Object" open="true" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.17" name="КлючевыеСвойства" type="d3p1:КлючевыеСвойстваФайлы"/>
+		<property name="ПутьКФайлу" type="xs:string" lowerBound="0"/>
+		<property name="ПутьКТому" type="xs:string" lowerBound="0"/>
+		<property name="УВМ_УИДВладельца" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="КонтактнаяИнформация">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/ED_Ext_UVM/1.17" name="Строка" type="d3p1:КонтактнаяИнформация.Строка" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="КонтактнаяИнформация.Строка" open="true" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/edi/edi_stnd/ED_Ext_UVM/1.17" name="ВидКонтактнойИнформации" type="d3p1:ВидыКИ"/>
+		<property name="ЗначенияПолей" type="xs:string"/>
+		<property name="НаименованиеКонтактнойИнформации" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.Контрагенты" base="d2p1:Object" open="true" sequenced="true">
+		<property name="УВМ_Клиент" type="xs:boolean" lowerBound="0"/>
+		<property name="УВМ_Поставщик" type="xs:boolean" lowerBound="0"/>
+		<property name="УВМ_Конкурент" type="xs:boolean" lowerBound="0"/>
+		<property name="УВМ_ПрочиеОтношения" type="xs:boolean" lowerBound="0"/>
+		<property name="УВМ_Перевозчик" type="xs:boolean" lowerBound="0"/>
+		<property name="УВМ_Подрядчик" type="xs:boolean" lowerBound="0"/>
+		<property name="УВМ_Хранитель_Арендодатель" type="xs:boolean" lowerBound="0"/>
+	</objectType>
+</package>

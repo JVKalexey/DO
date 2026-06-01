@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<BusinessProcess uuid="cd6ba4b2-92af-4c7b-b5ec-ce43f5bbf03f">
+		<InternalInfo>
+			<xr:GeneratedType name="BusinessProcessObject.КомплексныйПроцесс" category="Object">
+				<xr:TypeId>ebe39a55-1a8b-4ad1-a94b-e966e017c9a4</xr:TypeId>
+				<xr:ValueId>ce850629-37b2-45e1-937c-ff927dc52f17</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRef.КомплексныйПроцесс" category="Ref">
+				<xr:TypeId>793912b1-199e-4d46-a3a4-f1185ad7c7ab</xr:TypeId>
+				<xr:ValueId>e5f05944-472a-40fc-95cc-80074f873e3c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessSelection.КомплексныйПроцесс" category="Selection">
+				<xr:TypeId>3caa599c-b0df-4533-ac64-9c262e537a8b</xr:TypeId>
+				<xr:ValueId>6f2cf613-4d31-44c2-b787-1065bcd70b1f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessList.КомплексныйПроцесс" category="List">
+				<xr:TypeId>468aceb7-5191-4cfe-828d-90d1713408d5</xr:TypeId>
+				<xr:ValueId>5c79b43f-0ca0-4c93-a498-34c709b3b108</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessManager.КомплексныйПроцесс" category="Manager">
+				<xr:TypeId>1638d604-dc44-476e-882a-8fd0f1f260d9</xr:TypeId>
+				<xr:ValueId>eea89815-f795-44e8-979e-197a817c4fb5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRoutePointRef.КомплексныйПроцесс" category="RoutePointRef">
+				<xr:TypeId>baa4a9a2-be5e-4072-a2d7-a125f96c091a</xr:TypeId>
+				<xr:ValueId>716a5916-9db3-4d3a-8601-eef99d0b7385</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КомплексныйПроцесс</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dab6706c-e0f7-4dc9-8fac-95b1dfcbf05c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</BusinessProcess>
+</MetaDataObject>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="4adc1dba-ce97-4802-b9c6-63eb690af46b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НаименованияСторон" category="Object">
+				<xr:TypeId>346f7833-ce2a-4b4a-bf84-d8b99c42ef9a</xr:TypeId>
+				<xr:ValueId>2ff537c1-4f01-4028-a2e8-ffce23b28d10</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НаименованияСторон" category="Ref">
+				<xr:TypeId>05a4bf5b-69a9-4075-b3a6-5fc7fb2be18f</xr:TypeId>
+				<xr:ValueId>0e436145-0e43-4c9d-a12d-1f232c56dd43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НаименованияСторон" category="Selection">
+				<xr:TypeId>8e9db2de-633f-458c-a131-5abe5dc34710</xr:TypeId>
+				<xr:ValueId>4702a708-5c63-4869-860a-0fe820250ed5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НаименованияСторон" category="List">
+				<xr:TypeId>54f70e4f-bb59-48b4-a21d-eae50e80d6ea</xr:TypeId>
+				<xr:ValueId>7aecd470-a007-4261-b512-934e9e87d59d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НаименованияСторон" category="Manager">
+				<xr:TypeId>d5c3ea59-e581-4295-9c8d-467970f2a103</xr:TypeId>
+				<xr:ValueId>09437e66-4883-4053-8a8e-f14f98bce517</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НаименованияСторон</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b37f1744-90b3-4fc4-b5a0-79176842ed38</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

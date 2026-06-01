@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="626d7248-7665-4b5d-b3c9-307ab83ba664">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СведенияОПользователях" category="Record">
+				<xr:TypeId>afb19f69-89c6-4804-8fd7-5911a4c9a432</xr:TypeId>
+				<xr:ValueId>9a90321a-fa6b-48f0-82f2-f6e21d08282d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СведенияОПользователях" category="Manager">
+				<xr:TypeId>629dacd1-2b24-4617-88b6-bdbedbc10e2e</xr:TypeId>
+				<xr:ValueId>71ab09a5-9b53-4800-a4d5-2af54ac0cf6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СведенияОПользователях" category="Selection">
+				<xr:TypeId>f6872c45-a423-4fc0-a494-165d5f24b8cc</xr:TypeId>
+				<xr:ValueId>9c63ad84-71c2-4690-b1c0-42cee54034be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СведенияОПользователях" category="List">
+				<xr:TypeId>cbd550e1-e082-4558-99fb-dbc05e7edae4</xr:TypeId>
+				<xr:ValueId>553df0f6-857b-47c6-839d-86481d5a3c22</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СведенияОПользователях" category="RecordSet">
+				<xr:TypeId>c10542bb-07af-4046-adb9-07d558a7934e</xr:TypeId>
+				<xr:ValueId>756bf87b-652e-4b46-a533-969c1613e7b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СведенияОПользователях" category="RecordKey">
+				<xr:TypeId>e908862e-6742-41e8-a491-5d30e6e03a29</xr:TypeId>
+				<xr:ValueId>72f593a4-3446-49ff-a00b-617fd1dd0d68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СведенияОПользователях" category="RecordManager">
+				<xr:TypeId>9611c72d-dbd2-45d2-8f66-5db56ed9f54e</xr:TypeId>
+				<xr:ValueId>8beb8824-c534-4062-a86e-f4ec7774de83</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СведенияОПользователях</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fc67b510-3fb4-4305-92d2-c252bc718f03</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="b100d5a9-2526-439b-924e-92266bd60692">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПотребоватьСменуПароляПриВходе</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ed98a7b2-ad31-401f-a65e-dfbcc8e5a4a8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="015eb304-4c1c-4a19-a02d-f0b0591a3a0e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаРазрешенияВходаВПрограмму</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f9f991a6-ddf3-4953-8a1f-e6c0e1a7f4e9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="ca9650af-89d8-431c-9498-bb1b7daf26d9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Имя</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>47ad737d-c9d3-4d4d-8d4d-b550412062c4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f7e61a51-b716-4e43-b280-eec4c3ce2261">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВходВПрограммуРазрешен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0f83d532-f675-4aea-802e-d640cc53e4a9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="9a3e8f3a-3cbf-462a-94a5-4ad7abe33300">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пользователь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0110decc-d06e-43cf-9d01-30d412edcdd7</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

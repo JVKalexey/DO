@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="aa9bad95-9143-49cd-bbda-5f7227eca0bf">
+		<Name>Водитель</Name>
+		<Code/>
+		<Description>Водитель</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="64ca31d3-1bd0-42d8-a9aa-cff2dff8c351">
+		<Name>ДД</Name>
+		<Code/>
+		<Description>Директор дивизиона</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8775f00d-12ba-4376-83bd-80a1978849e8">
+		<Name>ДФ</Name>
+		<Code/>
+		<Description>Директор филиала</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c4d51dc5-8213-43b0-8179-cd8fe9543dc5">
+		<Name>КД</Name>
+		<Code/>
+		<Description>Коммерческий директор</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4980d9a5-0f49-463d-9d1a-fb8c48527d14">
+		<Name>МОС</Name>
+		<Code/>
+		<Description>Менеджер отдела снабжения</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6cfd5ac9-00ae-4b19-8125-07a9d1704518">
+		<Name>МОС_Общестрой</Name>
+		<Code/>
+		<Description>Менеджер отдела снабжения общестрой</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f20a5141-ac13-44b0-bc3c-9e2c7d73b28c">
+		<Name>МПП</Name>
+		<Code/>
+		<Description>Менеджер по продажам</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ab91415d-b722-48ea-8d54-4a23d42f5ec5">
+		<Name>МПП_Асфальт</Name>
+		<Code/>
+		<Description>Менеджер по продажам асфальт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a2236c5d-3ba5-4e97-891a-bb845e713baa">
+		<Name>МПП_МК</Name>
+		<Code/>
+		<Description>Менеджер по продажам металлоконструкции</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="61fb056e-b21c-4ea6-ac91-4952f089b0ad">
+		<Name>МПП_Общестрой</Name>
+		<Code/>
+		<Description>Менеджер по продажам общестрой</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7d1d9731-b2b6-4f32-a8fb-7f60a6f2a245">
+		<Name>МПП_Тендеры</Name>
+		<Code/>
+		<Description>Менеджер по продажам тендеры</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9bc5a140-594c-422e-a28a-3afdd0a8cda8">
+		<Name>МенеджерТендерногоОтдела</Name>
+		<Code/>
+		<Description>Менеджер тендерного отдела</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="01d2219b-3fc9-4999-9683-64dfaffcc10c">
+		<Name>РОП</Name>
+		<Code/>
+		<Description>Руководитель отдела продаж</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2f6a0e6e-8e69-4f64-9ef9-c469c1d5ea2c">
+		<Name>РОП_Общестрой</Name>
+		<Code/>
+		<Description>Руководитель отдела продаж общестрой</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aad564cc-02e5-41cc-82be-853481594a67">
+		<Name>СМ</Name>
+		<Code/>
+		<Description>Сервис менеджер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8dec3052-cc1e-4160-b970-4647a136649e">
+		<Name>СМ_Тендеры</Name>
+		<Code/>
+		<Description>Сервис менеджер тендеры</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="56ef66fb-a863-4a6b-90f2-f37e2ecbf23b">
+		<Name>ТОП</Name>
+		<Code/>
+		<Description>Топ менеджер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fb1291d6-3034-4033-85f5-3ad86594919e">
+		<Name>Юрист</Name>
+		<Code/>
+		<Description>Юрист</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
