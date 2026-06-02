@@ -1450,7 +1450,7 @@
 		<Metadata name="Catalog.ВидыЗадач.ManagerModule" id="756921d1-08ad-48b0-8c8f-7b4f0a40dd9b.3" configVersion="76a6cab8b616014c8ad151653b96e2ef00000000"/>
 		<Metadata name="Catalog.ВидыЗадач.ObjectModule" id="756921d1-08ad-48b0-8c8f-7b4f0a40dd9b.0" configVersion="7c64e28332ea7a4cb8fc4ba693e3b80000000000"/>
 		<Metadata name="Catalog.ВидыЗадач.Predefined" id="756921d1-08ad-48b0-8c8f-7b4f0a40dd9b.1c" configVersion="3f9c5e1c50d47b4bb852cc5a8a4b4a9300000000"/>
-		<Metadata name="Catalog.ВидыКонтактнойИнформации" id="782cb93d-36e6-4923-b2b6-75caa3459cd6" configVersion="c8890ca626be0948a9ef734890f57d2500000000">
+		<Metadata name="Catalog.ВидыКонтактнойИнформации" id="782cb93d-36e6-4923-b2b6-75caa3459cd6" configVersion="fbb680bd55b5544ba50609b1f25ef90c00000000">
 			<Metadata name="Catalog.ВидыКонтактнойИнформации.Attribute.ТолькоНациональныйАдрес" id="0eea37cc-47f8-4819-85da-d4991f4e58ed"/>
 			<Metadata name="Catalog.ВидыКонтактнойИнформации.Attribute.ИмяГруппы" id="0f039952-09d3-49c8-b909-e8333a3fc8f9"/>
 			<Metadata name="Catalog.ВидыКонтактнойИнформации.Attribute.ВидПоляДругое" id="0f314b6b-5ed1-46ed-bdfd-cf53330c2783"/>
@@ -1498,7 +1498,7 @@
 		<Metadata name="Catalog.ВидыКонтактнойИнформации.Help" id="782cb93d-36e6-4923-b2b6-75caa3459cd6.1" configVersion="44cc08d5a6308b418f69afa838138ac100000000"/>
 		<Metadata name="Catalog.ВидыКонтактнойИнформации.ManagerModule" id="782cb93d-36e6-4923-b2b6-75caa3459cd6.3" configVersion="1f19a98b13774449b57fbad00d980ea200000000"/>
 		<Metadata name="Catalog.ВидыКонтактнойИнформации.ObjectModule" id="782cb93d-36e6-4923-b2b6-75caa3459cd6.0" configVersion="3f4e5af52ca7044ba0eea55f3a7a8c1b00000000"/>
-		<Metadata name="Catalog.ВидыКонтактнойИнформации.Predefined" id="782cb93d-36e6-4923-b2b6-75caa3459cd6.1c" configVersion="d5827ce469fc284c94f2bc6a1f86f79900000000"/>
+		<Metadata name="Catalog.ВидыКонтактнойИнформации.Predefined" id="782cb93d-36e6-4923-b2b6-75caa3459cd6.1c" configVersion="ca7cb9ed8deb1247bd8d8e86e991d1b800000000"/>
 		<Metadata name="Catalog.ВидыМероприятий" id="fbaa585e-0453-4b0b-8bc6-bf7e89e9d9ee" configVersion="3c2ba2c112ad1b409578651135196a5100000000">
 			<Metadata name="Catalog.ВидыМероприятий.Attribute.РазрешитьРучноеИзменениеСписковДоступа" id="14b95957-ff8c-4dd3-95df-96c077a7cba8"/>
 			<Metadata name="Catalog.ВидыМероприятий.Attribute.Помещение" id="36292d98-d0ed-4036-bfc3-2a98cb74409d"/>

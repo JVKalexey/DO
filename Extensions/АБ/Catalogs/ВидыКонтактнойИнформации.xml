@@ -22,6 +22,10 @@
 				<xr:TypeId>7a869b4e-c5ee-45fb-a9b1-ef995c020df2</xr:TypeId>
 				<xr:ValueId>41e92d3f-02d5-4093-8171-83b5464cefb7</xr:ValueId>
 			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>

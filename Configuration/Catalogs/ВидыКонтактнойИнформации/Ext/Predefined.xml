@@ -108,6 +108,20 @@
 			</Item>
 		</ChildItems>
 	</Item>
+	<Item id="4cbe943f-aad2-49ad-b4ad-025358cb1870">
+		<Name>СправочникУВМ_ОбъектыАренды</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Объекты аренды"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="57596ed5-9821-4fa5-92d0-bfe698aca8ef">
+				<Name>АдресОбъектаАренды</Name>
+				<Code/>
+				<Description>Адрес объекта аренды</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
 	<Item id="0da33599-b19b-4bb0-a545-372490340f6a">
 		<Name>СправочникОрганизации</Name>
 		<Code/>

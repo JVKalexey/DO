@@ -208,17 +208,20 @@
 			<CommonModule>РаботаСЗадачамиВызовСервера</CommonModule>
 			<CommonModule>РаботаСЗадачамиКлиент</CommonModule>
 			<CommonModule>РаботаСПроцессамиПоДействиям</CommonModule>
+			<CommonModule>РаботаСоСпискамиДокументовКлиентСервер</CommonModule>
 			<ExchangePlan>СинхронизацияДанныхЧерезУниверсальныйФормат</ExchangePlan>
 			<XDTOPackage>EnterpriseData_1_17_3</XDTOPackage>
 			<XDTOPackage>ExchangeMessage</XDTOPackage>
 			<XDTOPackage>АБ_Ext_EnterpriseData_1_17_3</XDTOPackage>
 			<XDTOPackage>УВМ_Ext_EnterpriseData_1_17_3</XDTOPackage>
+			<DefinedType>ВладелецКонтактнойИнформации</DefinedType>
 			<DefinedType>КонтейнерыСотрудников</DefinedType>
 			<DefinedType>РегистрационныйНомер</DefinedType>
 			<DefinedType>Юрлицо</DefinedType>
 			<CommonForm>СозданиеДокументаПоШаблону</CommonForm>
 			<CommonForm>АБ_ФормаПросмотраДействующихДоговоров</CommonForm>
 			<Catalog>УВМ_ДолжностиУпр</Catalog>
+			<Catalog>УВМ_ОбъектыАренды</Catalog>
 			<Catalog>УВМ_РегистрацииВНалоговомОргане</Catalog>
 			<Catalog>АБ_ОтветственныеЛицаОрганизаций</Catalog>
 			<Catalog>АдреснаяКнига</Catalog>

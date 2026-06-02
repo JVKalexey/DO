@@ -116,6 +116,29 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.УВМ_ОбъектыАренды</name>
+		<right>
+			<name>Delete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.АБ_ОтветственныеЛицаОрганизаций.Attribute.ОтветственноеЛицо</name>
 		<right>
 			<name>Edit</name>

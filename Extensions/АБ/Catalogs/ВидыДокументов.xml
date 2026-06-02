@@ -30,6 +30,46 @@
 			<ExtendedConfigurationObject>ae67bb20-cf6f-43c2-ac61-762b48efacf2</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="598534b8-eb0c-4181-8749-5e059d76a57d">
+				<Properties>
+					<Name>УВМ_СкрыватьПолеТипНеустойки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Скрыть поле "Тип неустойки"</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>задача 330575</Comment>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="a5d1894a-73fe-4996-96b3-7bff2c2992e8">
 				<Properties>
 					<Name>УВМ_ТипДоговора</Name>
