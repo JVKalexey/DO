@@ -250,6 +250,7 @@
 			<Catalog>Файлы</Catalog>
 			<Catalog>ВидыКонтактнойИнформации</Catalog>
 			<Document>ИсходящееПисьмо</Document>
+			<Document>Задача</Document>
 			<Enum>УВМ_ВариантыДоговоров</Enum>
 			<Enum>УВМ_СтатусыБлокировкиКонтрагентов</Enum>
 			<Enum>УВМ_ТипыКонтрагентов</Enum>

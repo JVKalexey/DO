@@ -194,6 +194,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="fae30348-edf0-4a37-a973-bd6224af5097">
+				<Properties>
+					<Name>ДоговорПоставкиСЭДО</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Договор поставки с ЭДО</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="46524af8-f800-402d-86b5-bf9fe5950156">
 				<Properties>
 					<Name>ДоговорСубсидирования</Name>

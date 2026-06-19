@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="1e5ecc03-dd6a-43a4-ad34-1848e7bb614a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Задача" category="Object">
+				<xr:TypeId>6085a90b-4f13-4692-9333-786a66e91a39</xr:TypeId>
+				<xr:ValueId>3d01d821-0963-4b03-a3b6-eb1e8ba0c7c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Задача" category="Ref">
+				<xr:TypeId>c9019a5c-a310-403c-8c88-a30d93708d83</xr:TypeId>
+				<xr:ValueId>b072b2b5-eb10-4078-b7ba-5daaa0f41f95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Задача" category="Selection">
+				<xr:TypeId>737bc706-21dd-4f7f-9f9b-9e5b5950a6a8</xr:TypeId>
+				<xr:ValueId>f03b22a3-b9e8-4b7b-acda-daf76b05142e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Задача" category="List">
+				<xr:TypeId>c0346c28-c9d2-4249-9206-2a1c81885806</xr:TypeId>
+				<xr:ValueId>afe50a00-b82a-45ab-b047-6e8ecb70e45d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Задача" category="Manager">
+				<xr:TypeId>f35dc8d8-09bc-4827-a599-5aa71c26352a</xr:TypeId>
+				<xr:ValueId>95bd2cb2-17fc-4a45-bc4f-08b321a2c149</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Задача</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ca8a8fe7-4259-48f1-ba2f-de21dbb7af8d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
