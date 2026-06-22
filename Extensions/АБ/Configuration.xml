@@ -73,115 +73,128 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<StyleItem>МК_ЦветДополнительнойКнопки</StyleItem>
-			<StyleItem>ФонПодписьНеверна</StyleItem>
-			<StyleItem>ФайлЗанятыйДругимПользователем</StyleItem>
-			<StyleItem>ЦветПерсональнойКатегории</StyleItem>
-			<StyleItem>МК_ШрифтПоляФормы</StyleItem>
-			<StyleItem>МК_ЦветТекстаАкцентнойКнопки</StyleItem>
-			<StyleItem>ЦветОбщейКатегории</StyleItem>
-			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
-			<StyleItem>ФайлЗанятыйТекущимПользователем</StyleItem>
-			<StyleItem>ПросроченныеДанныеЦвет</StyleItem>
-			<StyleItem>НедействительныеОбъекты</StyleItem>
-			<StyleItem>МК_ШрифтАкцентнойКнопки</StyleItem>
-			<StyleItem>МК_ЦветФонаГруппы</StyleItem>
-			<StyleItem>МК_ЦветТекстаПоляФормы</StyleItem>
-			<StyleItem>ОшибочныеДанные</StyleItem>
-			<StyleItem>ОтметкаПоложительногоВыполненияЗадачи</StyleItem>
-			<StyleItem>ОтметкаОтрицательногоВыполненияЗадачи</StyleItem>
-			<StyleItem>ФонПодписьВерна</StyleItem>
-			<StyleItem>ОбъектПомеченНаУдаление</StyleItem>
-			<StyleItem>ОтсутствиеЦветФона</StyleItem>
-			<StyleItem>ИнформационнаяНадпись</StyleItem>
-			<StyleItem>ЦветКалендаряФонТекущегоДня</StyleItem>
-			<StyleItem>ЗавершенныйБизнесПроцесс</StyleItem>
-			<StyleItem>ФонУправляющегоПоля</StyleItem>
-			<StyleItem>ТекстНевыбраннойКартинкиЦвет</StyleItem>
-			<StyleItem>ПоясняющийТекст</StyleItem>
-			<StyleItem>ЗакрытыеНеактуальныеЗаписи</StyleItem>
-			<StyleItem>ЦветВысокойВажности</StyleItem>
-			<StyleItem>ЦветНеизвестногоАдресата</StyleItem>
-			<StyleItem>НедоступныеДанныеЦвет</StyleItem>
-			<StyleItem>ГруппаВариантовОтчетовЦвет</StyleItem>
 			<StyleItem>ГруппаВариантовОтчетовВажнаяШрифт</StyleItem>
+			<StyleItem>ГруппаВариантовОтчетовЦвет</StyleItem>
+			<StyleItem>ДосьеПанельРазделовЦвет</StyleItem>
+			<StyleItem>ЗавершенныйБизнесПроцесс</StyleItem>
+			<StyleItem>ЗакрытыеНеактуальныеЗаписи</StyleItem>
+			<StyleItem>ИнформационнаяНадпись</StyleItem>
+			<StyleItem>МК_ЦветАктивнойДополнительнойКнопки</StyleItem>
+			<StyleItem>МК_ЦветДополнительнойКнопки</StyleItem>
+			<StyleItem>МК_ЦветТекстаАкцентнойКнопки</StyleItem>
+			<StyleItem>МК_ЦветТекстаПоляФормы</StyleItem>
+			<StyleItem>МК_ЦветФонаГруппы</StyleItem>
+			<StyleItem>МК_ШрифтАкцентнойКнопки</StyleItem>
+			<StyleItem>МК_ШрифтДополнительнойКнопки</StyleItem>
+			<StyleItem>МК_ШрифтПоляФормы</StyleItem>
+			<StyleItem>НедействительныеОбъекты</StyleItem>
+			<StyleItem>НедоступныеДанныеЦвет</StyleItem>
+			<StyleItem>ОбъектПомеченНаУдаление</StyleItem>
+			<StyleItem>ОтметкаОтрицательногоВыполненияЗадачи</StyleItem>
+			<StyleItem>ОтметкаПоложительногоВыполненияЗадачи</StyleItem>
+			<StyleItem>ОтсутствиеЦветФона</StyleItem>
+			<StyleItem>ОшибочныеДанные</StyleItem>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>ПросроченныеДанныеЦвет</StyleItem>
+			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
+			<StyleItem>ТекстНевыбраннойКартинкиЦвет</StyleItem>
+			<StyleItem>ФайлЗанятыйДругимПользователем</StyleItem>
+			<StyleItem>ФайлЗанятыйТекущимПользователем</StyleItem>
+			<StyleItem>ФонПодписьВерна</StyleItem>
+			<StyleItem>ФонПодписьНеверна</StyleItem>
+			<StyleItem>ФонУправляющегоПоля</StyleItem>
+			<StyleItem>ЦветВысокойВажности</StyleItem>
 			<StyleItem>ЦветГиперссылки</StyleItem>
-			<CommonPicture>ВнешняяКомпонентаДоступна</CommonPicture>
-			<CommonPicture>КоллекцияСкрепкаДляСписка</CommonPicture>
-			<CommonPicture>Штрихкод</CommonPicture>
-			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
-			<CommonPicture>КоллекцияВариантыВажности</CommonPicture>
-			<CommonPicture>СтрелкаВверх</CommonPicture>
-			<CommonPicture>СтатусыЭДО16ДляСписка</CommonPicture>
-			<CommonPicture>СвязиШапка</CommonPicture>
-			<CommonPicture>КоллекцияВзаимодействияСотрудников</CommonPicture>
-			<CommonPicture>ГаечныйКлюч</CommonPicture>
-			<CommonPicture>Папки</CommonPicture>
-			<CommonPicture>МК_Фильтр</CommonPicture>
-			<CommonPicture>Папка</CommonPicture>
-			<CommonPicture>КоллекцияПиктограммЭлементов</CommonPicture>
-			<CommonPicture>КоллекцияПрочтениеФорума</CommonPicture>
-			<CommonPicture>СкрепкаСерая</CommonPicture>
-			<CommonPicture>ВосклицательныйЗнакСерый</CommonPicture>
-			<CommonPicture>ВзаимодействиеСотрудниковСерый</CommonPicture>
-			<CommonPicture>Цифры19</CommonPicture>
-			<CommonPicture>ПодписанЭПСерая</CommonPicture>
-			<CommonPicture>СтатусПроверкиЭПДляСписка</CommonPicture>
-			<CommonPicture>КартинкаКонтроль16Серая</CommonPicture>
-			<CommonPicture>СостоянияКонтроля16ДляСписка</CommonPicture>
-			<CommonPicture>СостояниеДелаХраненияДокументов</CommonPicture>
-			<CommonPicture>СостоянияДелХраненияДокументов</CommonPicture>
-			<CommonPicture>Категории</CommonPicture>
-			<CommonPicture>ЭмблемаСервиса1СЭДОСерая</CommonPicture>
-			<CommonPicture>ИндикаторПрочтенностиДляШапки</CommonPicture>
-			<CommonPicture>ВходящийИсходящийВнутренний</CommonPicture>
-			<CommonPicture>Оригинал</CommonPicture>
-			<CommonPicture>ПоляИСортировки</CommonPicture>
-			<CommonPicture>МК_РазделНастройки</CommonPicture>
-			<CommonPicture>ВажностьНеЗадана</CommonPicture>
-			<CommonPicture>КартинкаНомер</CommonPicture>
-			<CommonPicture>СостоянияДелХраненияДокументов24</CommonPicture>
-			<CommonPicture>ПодписанЭП</CommonPicture>
-			<CommonPicture>СтатусыКатегорий24</CommonPicture>
-			<CommonPicture>ЗаполнитьФорму</CommonPicture>
-			<CommonPicture>СтатусыПроверкиЭП24</CommonPicture>
-			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
-			<CommonPicture>ЭлектронныйДокументИсходящий</CommonPicture>
-			<CommonPicture>ЗаполнитьПоОснованию</CommonPicture>
-			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
-			<CommonPicture>ПодписанЗашифрованСостоянияДО</CommonPicture>
-			<CommonPicture>СтатусыВзаимодействияСотрудниковЗеленый24</CommonPicture>
-			<CommonPicture>СтатусыФорума24</CommonPicture>
-			<CommonPicture>СостоянияКонтроляДляОбзора24</CommonPicture>
-			<CommonPicture>СтатусыЭДО24</CommonPicture>
-			<CommonPicture>Сервис1СПАРКРиски16</CommonPicture>
-			<CommonPicture>КоллекцияСветофор</CommonPicture>
-			<CommonPicture>КоллекцияВидовСторон</CommonPicture>
-			<CommonPicture>НекорректныйКонтрагент</CommonPicture>
-			<CommonPicture>Предупреждение</CommonPicture>
-			<CommonPicture>ДобавитьДопСвойствоВНабор</CommonPicture>
-			<CommonPicture>КоллекцияРезультатыВыполненияДействий</CommonPicture>
-			<CommonPicture>Скрепка</CommonPicture>
-			<CommonPicture>УчастникиРабочейГруппы</CommonPicture>
-			<CommonPicture>Обсуждение</CommonPicture>
-			<CommonPicture>ЗамокЗащищенныйУчастник</CommonPicture>
-			<CommonPicture>БуферОбмена</CommonPicture>
+			<StyleItem>ЦветКалендаряФонТекущегоДня</StyleItem>
+			<StyleItem>ЦветНеизвестногоАдресата</StyleItem>
+			<StyleItem>ЦветОбщейКатегории</StyleItem>
+			<StyleItem>ЦветПерсональнойКатегории</StyleItem>
+			<StyleItem>ЦветТекстаРоли</StyleItem>
+			<StyleItem>ШрифтКнопкиВыполненияЗадачиОбычный</StyleItem>
 			<CommonPicture>Адресаты16</CommonPicture>
-			<CommonPicture>КоллекцияСостоянийПисем24</CommonPicture>
-			<CommonPicture>Переслать</CommonPicture>
-			<CommonPicture>ПустойФлаг</CommonPicture>
-			<CommonPicture>КоллекцияСпособовАдресацииПисем</CommonPicture>
-			<CommonPicture>СохранитьАдресата</CommonPicture>
+			<CommonPicture>БуферОбмена</CommonPicture>
+			<CommonPicture>ВажностьНеЗадана</CommonPicture>
+			<CommonPicture>ВзаимодействиеСотрудниковСерый</CommonPicture>
+			<CommonPicture>ВидДокументаНумерация</CommonPicture>
 			<CommonPicture>ВидДокументаОбработка</CommonPicture>
 			<CommonPicture>ВидДокументаОсновное</CommonPicture>
-			<CommonPicture>ВидДокументаНумерация</CommonPicture>
-			<CommonPicture>ВидДокументаШаблоны</CommonPicture>
-			<CommonPicture>НастройкиЭДО24</CommonPicture>
-			<CommonPicture>ВидДокументаТематики</CommonPicture>
 			<CommonPicture>ВидДокументаРолиФайлов</CommonPicture>
-			<CommonPicture>ОтветственныйИсполнитель</CommonPicture>
-			<CommonPicture>КоллекцияОтветственные</CommonPicture>
+			<CommonPicture>ВидДокументаТематики</CommonPicture>
+			<CommonPicture>ВидДокументаШаблоны</CommonPicture>
+			<CommonPicture>ВнешняяКомпонентаДоступна</CommonPicture>
+			<CommonPicture>ВосклицательныйЗнакСерый</CommonPicture>
+			<CommonPicture>ВходящийИсходящийВнутренний</CommonPicture>
+			<CommonPicture>ГаечныйКлюч</CommonPicture>
+			<CommonPicture>ДобавитьДопСвойствоВНабор</CommonPicture>
+			<CommonPicture>ЗамокЗащищенныйУчастник</CommonPicture>
+			<CommonPicture>ЗаполнитьПоОснованию</CommonPicture>
+			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>ИндикаторПрочтенностиДляШапки</CommonPicture>
+			<CommonPicture>КартинкаКонтроль16Серая</CommonPicture>
+			<CommonPicture>КартинкаКонтрольЗаголовок16</CommonPicture>
+			<CommonPicture>КартинкаНомер</CommonPicture>
+			<CommonPicture>Категории</CommonPicture>
 			<CommonPicture>КоллекцияАдреснаяКнига</CommonPicture>
+			<CommonPicture>КоллекцияВариантыВажности</CommonPicture>
+			<CommonPicture>КоллекцияВзаимодействияСотрудников</CommonPicture>
+			<CommonPicture>КоллекцияВидовСторон</CommonPicture>
+			<CommonPicture>КоллекцияГруппировкиЗадач</CommonPicture>
+			<CommonPicture>КоллекцияОтветственные</CommonPicture>
+			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
+			<CommonPicture>КоллекцияПиктограммЭлементов</CommonPicture>
+			<CommonPicture>КоллекцияПрочтениеФорума</CommonPicture>
+			<CommonPicture>КоллекцияРезультатыВыполненияДействий</CommonPicture>
+			<CommonPicture>КоллекцияСветофор</CommonPicture>
+			<CommonPicture>КоллекцияСкрепкаДляСписка</CommonPicture>
+			<CommonPicture>КоллекцияСостоянийПисем24</CommonPicture>
+			<CommonPicture>КоллекцияСостоянияЗадач</CommonPicture>
+			<CommonPicture>КоллекцияСпособовАдресацииПисем</CommonPicture>
+			<CommonPicture>КоллекцияФлаговПисем</CommonPicture>
+			<CommonPicture>МК_РазделНастройки</CommonPicture>
+			<CommonPicture>МК_Фильтр</CommonPicture>
+			<CommonPicture>НастройкиЭДО24</CommonPicture>
+			<CommonPicture>НекорректныйКонтрагент</CommonPicture>
+			<CommonPicture>Обсуждение</CommonPicture>
+			<CommonPicture>Оригинал</CommonPicture>
+			<CommonPicture>ОтветственныйИсполнитель</CommonPicture>
+			<CommonPicture>Папка</CommonPicture>
+			<CommonPicture>Папки</CommonPicture>
+			<CommonPicture>Переслать</CommonPicture>
+			<CommonPicture>Подзадачи</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованСостоянияДО</CommonPicture>
+			<CommonPicture>ПодписанЭП</CommonPicture>
+			<CommonPicture>ПодписанЭПСерая</CommonPicture>
+			<CommonPicture>ПоляИСортировки</CommonPicture>
+			<CommonPicture>Предупреждение</CommonPicture>
+			<CommonPicture>Пустая</CommonPicture>
+			<CommonPicture>ПустойФлаг</CommonPicture>
+			<CommonPicture>СвязиШапка</CommonPicture>
+			<CommonPicture>Сервис1СПАРКРиски16</CommonPicture>
+			<CommonPicture>Скрепка</CommonPicture>
+			<CommonPicture>СкрепкаСерая</CommonPicture>
+			<CommonPicture>СостояниеДелаХраненияДокументов</CommonPicture>
+			<CommonPicture>СостояниеПроцессаЗаголовок</CommonPicture>
+			<CommonPicture>СостоянияДелХраненияДокументов</CommonPicture>
+			<CommonPicture>СостоянияДелХраненияДокументов24</CommonPicture>
+			<CommonPicture>СостоянияКонтроля16</CommonPicture>
+			<CommonPicture>СостоянияКонтроля16ДляСписка</CommonPicture>
+			<CommonPicture>СостоянияКонтроляДляОбзора24</CommonPicture>
+			<CommonPicture>СохранитьАдресата</CommonPicture>
+			<CommonPicture>СтатусПроверкиЭПДляСписка</CommonPicture>
+			<CommonPicture>СтатусыВзаимодействияСотрудниковЗеленый24</CommonPicture>
+			<CommonPicture>СтатусыКатегорий24</CommonPicture>
+			<CommonPicture>СтатусыПроверкиЭП24</CommonPicture>
+			<CommonPicture>СтатусыФорума24</CommonPicture>
+			<CommonPicture>СтатусыЭДО16ДляСписка</CommonPicture>
+			<CommonPicture>СтатусыЭДО24</CommonPicture>
+			<CommonPicture>СтрелкаВверх</CommonPicture>
+			<CommonPicture>УчастникиРабочейГруппы</CommonPicture>
+			<CommonPicture>Цифры19</CommonPicture>
+			<CommonPicture>Штрихкод</CommonPicture>
+			<CommonPicture>ЭлектронныйДокументИсходящий</CommonPicture>
+			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
+			<CommonPicture>ЭмблемаСервиса1СЭДОСерая</CommonPicture>
 			<Role>АБ_ОсновнаяРоль</Role>
 			<Role>БазовыеПраваБСП</Role>
 			<Role>БазовыеПраваДокументооборот</Role>
@@ -218,8 +231,8 @@
 			<DefinedType>КонтейнерыСотрудников</DefinedType>
 			<DefinedType>РегистрационныйНомер</DefinedType>
 			<DefinedType>Юрлицо</DefinedType>
-			<CommonForm>СозданиеДокументаПоШаблону</CommonForm>
 			<CommonForm>АБ_ФормаПросмотраДействующихДоговоров</CommonForm>
+			<CommonForm>СозданиеДокументаПоШаблону</CommonForm>
 			<Catalog>УВМ_ДолжностиУпр</Catalog>
 			<Catalog>УВМ_ОбъектыАренды</Catalog>
 			<Catalog>УВМ_РегистрацииВНалоговомОргане</Catalog>
@@ -251,6 +264,7 @@
 			<Catalog>ВидыКонтактнойИнформации</Catalog>
 			<Document>ИсходящееПисьмо</Document>
 			<Document>Задача</Document>
+			<Document>ДействиеЗадачи</Document>
 			<Enum>УВМ_ВариантыДоговоров</Enum>
 			<Enum>УВМ_СтатусыБлокировкиКонтрагентов</Enum>
 			<Enum>УВМ_ТипыКонтрагентов</Enum>
