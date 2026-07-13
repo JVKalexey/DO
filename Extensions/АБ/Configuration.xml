@@ -222,6 +222,7 @@
 			<CommonModule>РаботаСЗадачамиКлиент</CommonModule>
 			<CommonModule>РаботаСПроцессамиПоДействиям</CommonModule>
 			<CommonModule>РаботаСоСпискамиДокументовКлиентСервер</CommonModule>
+			<CommonModule>РаботаСИнтегрированнымиСистемами</CommonModule>
 			<ExchangePlan>СинхронизацияДанныхЧерезУниверсальныйФормат</ExchangePlan>
 			<XDTOPackage>EnterpriseData_1_17_3</XDTOPackage>
 			<XDTOPackage>ExchangeMessage</XDTOPackage>
